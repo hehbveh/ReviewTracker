@@ -17,7 +17,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Set up Xcode
-      uses: maxim-lobanov/setup-xcode@v2
+      uses: apple/actions/setup-xcode@v3  # Use the stable version of setup-xcode
       with:
         xcode-version: '14.x'  # Set this to the version of Xcode you're using
 
